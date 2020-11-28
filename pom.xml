@@ -2,15 +2,42 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>krzysztof</groupId>
+	<groupId>com.github.toficzak</groupId>
 	<artifactId>property.reader</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>Application used to normalize property reading in multiple projects..</description>
+	<url>https://github.com/toficzak/property.reader</url>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Krzysztof</name>
+			<email>toficzak+propert.reader@gmail.com</email>
+			<url>https://github.com/toficzak</url>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/toficzak/property.reader.git</connection>
+		<developerConnection>scm:git:ssh://github.com/toficzak/property.reader.git</developerConnection>
+		<url>http://github.com/toficzak/property.reader.git/tree/master</url>
+	</scm>
 
 	<properties>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
